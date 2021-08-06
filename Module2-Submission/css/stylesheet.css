@@ -66,6 +66,7 @@ p{
 }
 .chd-2{
 	background-color: red;
+	color : white;
 }
 .chd-3{
 	background-color: yellow;
@@ -139,6 +140,7 @@ p{
 	}
 	.chd-2{
 		background-color: red;
+		color : white;
 	}
 	.chd-3{
 		background-color: yellow;
@@ -195,7 +197,8 @@ p{
 		height : 28%;
 		font-size : 160%;
 		font-weight : bold;
-		padding-top : 1%;
+		padding-top : 3%;
+		padding-bottom : 2%;
 		border-bottom: 3px solid black;
 		border-left: 3px solid black;
 		border-color: black;
@@ -206,9 +209,11 @@ p{
 	}
 	.chd-2{
 		background-color: red;
+		color : white;
 	}
 	.chd-3{
 		background-color: yellow;
+		
 	}
 
 }
