@@ -1,7 +1,66 @@
+*{
+	box-sizing : border-box;
+	font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 body{
-	background-color : blue;
+	background-color : white;
+}
+h1{
+	font-size : 65px;
+}
+.row{
+	width : 100%;
+	height: 150px;
+	padding : 5px 5px 5px 5.55%;
+	position : relative;
+	margin-top : 12%;
+	/* background-color : black; */
+	text-align : right;
 }
 .main{
 	text-align: center;
-	color : yellow;
+	color : black;
+}
+.col-lg-3{
+	position : relative;
+	float : left;
+	background-color : gray;
+	/* margin-top: 10px; */
+	color : black;
+	width : 30%;
+	height : 195%;
+	margin : 10px;
+	border : black solid 3px;
+	
+}
+p{
+	padding: 3%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 125%;
+}
+.chd-1,.chd-2,.chd-3{
+	background-color : black;
+	color : black;
+	margin-top : 0%;
+	margin-left : 55%;
+	width : 45%;
+	text-align: center;
+	height : 19%;
+	font-size : 160%;
+	font-weight : bold;
+	padding-top : 1%;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-color: black;
+	
+}
+.chd-1{
+	background-color : pink;
+}
+.chd-2{
+	background-color: red;
+}
+.chd-3{
+	background-color: yellow;
 }
