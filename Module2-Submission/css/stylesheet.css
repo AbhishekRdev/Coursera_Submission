@@ -1,1 +1,7 @@
-test file
+body{
+	background-color : blue;
+}
+.main{
+	text-align: center;
+	color : yellow;
+}
