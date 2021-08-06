@@ -8,6 +8,16 @@ body{
 h1{
 	font-size : 65px;
 }
+@media screen and (min-width: 992px ) {
+
+p{
+		padding : 2.65%;
+		text-align: left;
+		font-weight: bold;
+		font-size: 125%;
+	 
+	}	
+
 .row{
 	width : 100%;
 	height: 150px;
@@ -32,13 +42,9 @@ h1{
 	margin : 10px;
 	border : black solid 3px;
 	
+	
 }
-p{
-	padding: 3%;
-	text-align: left;
-	font-weight: bold;
-	font-size: 125%;
-}
+
 .chd-1,.chd-2,.chd-3{
 	background-color : black;
 	color : black;
@@ -63,4 +69,146 @@ p{
 }
 .chd-3{
 	background-color: yellow;
+}
+}
+@media  screen and (min-width : 768px) and (max-width : 991px) {
+	p{
+		padding : 2.65%;
+		text-align: left;
+		font-weight: bold;
+		font-size: 125%;
+	 
+	}	
+
+	.row{
+		width : 100%;
+		height: 150px;
+		padding : 5px 5px 5px 5.55%;
+		position : relative;
+		margin-top : 12%;
+		/* background-color : black; */
+		text-align : right;
+	}
+	.main{
+		text-align: center;
+		color : black;
+	}
+	.col-md-2{
+		position : relative;
+		float : left;
+		background-color : gray;
+		/* margin-top: 10px; */
+		color : black;
+		width : 46%;
+		height : 195%;
+		margin : 10px;
+		margin-left : 3px;
+		border : black solid 3px;
+		
+		
+	}
+	#div-3{
+		position : relative;
+		float : left;
+		background-color : gray;
+		/* margin-top: 10px; */
+		color : black;
+		width : 93.5%;
+		height : 195%;
+		
+		border : black solid 3px;
+	}
+	.chd-1,.chd-2,.chd-3{
+		background-color : black;
+		color : black;
+		margin-top : 0%;
+		margin-left : 55%;
+		width : 45%;
+		text-align: center;
+		height : 19%;
+		font-size : 160%;
+		font-weight : bold;
+		padding-top : 1%;
+		border-bottom: 3px solid black;
+		border-left: 3px solid black;
+		border-color: black;
+		
+	}
+	.chd-1{
+		background-color : pink;
+	}
+	.chd-2{
+		background-color: red;
+	}
+	.chd-3{
+		background-color: yellow;
+		margin-left : 78%;
+		width : 22%;
+	}
+}
+@media screen and (max-width : 767px){
+	p{
+		padding-left: 2%; 
+		text-align: left;
+		font-weight: bold;
+		font-size: 125%;
+	 
+	}	
+
+	.row{
+		width : 100%;
+		height:150px ;
+		padding : 1%;
+		position : relative;
+		margin-top : 12%;
+		/* background-color : black; */
+		text-align : right;
+		
+	}
+	.main{
+		text-align: center;
+		color : black;
+		
+	}
+	.col-sm-1{
+		position : relative;
+		float : left;
+		background-color : gray;
+		/* margin-top: 10px; */
+		color : black;
+		width : 100%;
+		height : 195%;
+		margin : 10px;
+		margin-left : 3px;
+		border : black solid 3px;
+		
+		
+	}
+	
+	.chd-1,.chd-2,.chd-3{
+		background-color : black;
+		color : black;
+		margin-top : 0%;
+		margin-left : 55%;
+		width : 45%;
+		text-align: center;
+		height : 28%;
+		font-size : 160%;
+		font-weight : bold;
+		padding-top : 1%;
+		border-bottom: 3px solid black;
+		border-left: 3px solid black;
+		border-color: black;
+		
+	}
+	.chd-1{
+		background-color : pink;
+	}
+	.chd-2{
+		background-color: red;
+	}
+	.chd-3{
+		background-color: yellow;
+	}
+
 }
