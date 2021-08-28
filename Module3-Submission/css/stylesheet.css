@@ -6,10 +6,13 @@
 	font-family: 'Hina Mincho', serif;
 
 }
+#collapsable-nav>ul>li{
+	background-color : white;
+}
 #nav_bg{
 	background-color : red;
 }
-#button-col,#links{
+#button-col{
 	background-color: white;
 }
 .topic{
